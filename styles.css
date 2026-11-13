@@ -361,6 +361,25 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
   transform: translateY(-1px);
 }
 
+.btn-linkedin {
+  background: white; color: var(--text-primary);
+  border: 1.5px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.btn-linkedin:hover {
+  border-color: #0A66C2; color: #0A66C2;
+  transform: translateY(-1px);
+}
+.btn-linkedin img {
+  width: 20px; height: 20px;
+  object-fit: contain; border-radius: 4px;
+}
+
+.contact-linkedin-logo {
+  width: 24px; height: 24px;
+  object-fit: contain; border-radius: 4px; flex-shrink: 0;
+}
+
 .btn-large { font-size: 0.95rem; padding: 0.9rem 1.9rem; }
 
 /* ===========================
@@ -792,6 +811,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
   .nav-toggle { display: none; }
 
   body { padding-bottom: calc(70px + env(safe-area-inset-bottom)); }
+
 
   .hero-container {
     grid-template-columns: 1fr;

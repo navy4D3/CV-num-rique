@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
+
   // Staggered delays for grouped elements
   document.querySelectorAll('.timeline-item.reveal').forEach((el, i) => { el.dataset.delay = i * 120; });
   document.querySelectorAll('.education-card.reveal').forEach((el, i) => { el.dataset.delay = i * 80; });
